@@ -1,12 +1,19 @@
 This directory contains Genome Scale Metabolic Models of Methanotrophyc organisms.
 Each model is available in SBML format, together with two tab separated files containing lists of reactions and metabolites.
-The list of reactions includes their ids, names, stoichiometry and gene associations, the list of metabolites contains ids and names.
+The list of reactions (with the ending _reactions) includes their ids, names, stoichiometry and gene associations, the list of metabolites (with the ending _metabolites) contains ids and names.
 Gene annotations from RAST are contained in excel files.
 
 A python script that generates tab separated lists of reactions and metabolites from SBML models is included (makelists.py)
 Running it requires the previous instalation of COBRApy.
 
 https://github.com/opencobra/cobrapy
+
+For each model, there are also available tab separated files with:
+
+Lists of essential reactions, with the ending Ess.
+Connectivity of each metabolite (number of reactions in which it takes part), with the ending Mets.
+Connectivity of each metabolite to reactions carrying non zero metabolic fluxes during growth, with the ending MetsFlux.
+
 
 The models currently available are for the methanotrophs:
 
