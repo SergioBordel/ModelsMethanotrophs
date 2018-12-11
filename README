@@ -1,0 +1,10 @@
+This directory contains Genome Scale Metabolic Models of Methanotrophyc organisms.
+Each model is available in SBML format, together with two tab separated files containing lists of reactions and metabolites.
+The list of reactions includes their ids, names, stoichiometry and gene associations, the list of metabolites contains ids and names.
+Gene annotations from RAST are contained in excel files.
+
+The models currently available are for the methanotrophs:
+
+Methylocystis hirsuta
+Methylocystis sp. SC2
+Methylocystis sp. SB2
