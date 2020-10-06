@@ -21052,31 +21052,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__1906" />
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_lactate isomerase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference constant="true" species="M_cpd00221_c0" stoichiometry="1" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_cpd00159_c0" stoichiometry="1" />
-        </listOfProducts>
-      </reaction>
-      <reaction fast="false" id="R_lactate dehydrogenase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
-        <listOfReactants>
-          <speciesReference constant="true" species="M_cpd00003_c0" stoichiometry="1" />
-          <speciesReference constant="true" species="M_cpd00159_c0" stoichiometry="1" />
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_cpd00004_c0" stoichiometry="1" />
-          <speciesReference constant="true" species="M_cpd00020_c0" stoichiometry="1" />
-          <speciesReference constant="true" species="M_cpd00067_c0" stoichiometry="1" />
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:or>
-            <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__2820" />
-            <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__2821" />
-          </fbc:or>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_EX_Ethane" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference constant="true" species="M_ethane" stoichiometry="1" />
@@ -21100,6 +21075,31 @@
             <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__1916" />
             <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__1914" />
             <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__1913" />
+          </fbc:or>
+        </fbc:geneProductAssociation>
+      </reaction>
+      <reaction fast="false" id="R_lactate_isomerase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00221_c0" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00159_c0" stoichiometry="1" />
+        </listOfProducts>
+      </reaction>
+      <reaction fast="false" id="R_lactate_dehydrogenase" reversible="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_cpd00003_c0" stoichiometry="1" />
+          <speciesReference constant="true" species="M_cpd00159_c0" stoichiometry="1" />
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_cpd00004_c0" stoichiometry="1" />
+          <speciesReference constant="true" species="M_cpd00020_c0" stoichiometry="1" />
+          <speciesReference constant="true" species="M_cpd00067_c0" stoichiometry="1" />
+        </listOfProducts>
+        <fbc:geneProductAssociation>
+          <fbc:or>
+            <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__2820" />
+            <fbc:geneProductRef fbc:geneProduct="G_6666666__SBML_DOT__455589__SBML_DOT__peg__SBML_DOT__2821" />
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
